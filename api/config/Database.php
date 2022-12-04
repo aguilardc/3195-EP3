@@ -1,6 +1,7 @@
 <?php
 
-class Database {
+class Database
+{
 
     const HOST = 'localhost';
     const DBNAME = 'climas';
@@ -9,7 +10,8 @@ class Database {
 
     private $connection = null;
 
-    protected function connect() {
+    protected function connect()
+    {
         try {
             if (is_null($this->connection)) {
                 $this->connection = new PDO('mysql:host=' . self::HOST . ';dbname=' . self::DBNAME, self::USER, self::PASSWORD);
