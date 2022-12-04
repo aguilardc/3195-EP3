@@ -1,0 +1,74 @@
+body {
+    padding: 20px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+#card-wrap {
+    width: 100%;
+    padding: 30px;
+    background-color: #adadad;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 24rem;
+    background-color: #adadad;
+    border: none;
+    padding: 25px 0 35px 0;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content:first-child {
+    height: 17%;
+}
+
+.content:first-child h5 {
+    font-size: 0.8em;
+}
+
+.content:last-child {
+    height: 45%;
+}
+
+.content:last-child h2 {
+    font-size: 1em;
+}
+
+.content:last-child h3 {
+    font-size: 3.5em;
+}
+
+#temperature {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#temperature li a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#temperature li a:hover {
+    color: #616C6C;
+}
